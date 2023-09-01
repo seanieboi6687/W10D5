@@ -7,8 +7,36 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>React Template</title>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <!-- <div id="root"> -->
+      <form action="">
+        <input type="text" placeholder="Name" value="">
+        <br>
+        <input type="text" placeholder="Email" value="">
+        <br>
+        <input type="text" placeholder="Phone Number" value="">
+        <select name="phoneType" id="phoneType">
+          <option value="Home">Home</option>
+          <option value="Work">Work</option>
+          <option value="Mobile">Mobile</option>
+        </select>
+        <br>
+        <label>Instructor
+          <input type="radio" name="radio">
+        </label>
+        <label>Student
+          <input type="radio" name="radio">
+        </label>
+        <br>
+        <input type="text" placeholder="bio" value="">
+        <br>
+        <label>Sign up for email notification.
+          <input type="checkbox">
+        </label>
+        <br>
+        <button>Submit</button>
+      </form>
+    <!-- </div> -->
   </body>
 </html>
